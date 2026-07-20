@@ -1,0 +1,253 @@
+@article{kulkarni2026listqa,
+  title     = {ListQA: A Benchmark for Evaluating List-Formatted Factual Knowledge Retrieval in Large Language Models},
+  author    = {Kulkarni, Mayank and Vaideeswaran, R.},
+  journal   = {NeurIPS 2026 (in submission)},
+  year      = {2026},
+  tags      = {evaluation, pre-training, reasoning},
+  abstract  = {Standard retrieval benchmarks miss a systematic class of failure: models that can answer single-fact questions often fail when the answer requires retrieving and integrating multiple related facts. ListQA addresses this gap with a benchmark specifically designed to surface multi-fact retrieval failures, validated against held-out subsets using LLM-as-a-Judge.}
+}
+
+@inproceedings{guo2025engdesign,
+  title     = {Toward Engineering AGI: Benchmarking the Engineering Design Capabilities of LLMs},
+  author    = {Guo, X. and others and Kulkarni, Mayank and Namazifar, M. and Zhang, H. and Hu, B.},
+  booktitle = {Advances in Neural Information Processing Systems 38},
+  year      = {2025},
+  tags      = {evaluation, AI for science, engineering reasoning},
+  abstract  = {EngDesign is a benchmark for open-ended engineering reasoning across 9 domains — analog IC, structural, mechanical, control systems, robotics, digital hardware, OS, computer architecture, and signal processing — evaluated through domain-specific simulations (SPICE, FEA) rather than MCQ or LLM-as-a-Judge. Results are verifiable against ground truth, making it resistant to the format exploitation that plagues most reasoning benchmarks. EngDesign-Open provides 53 fully open-sourced tasks on HuggingFace.}
+}
+
+@inproceedings{kulkarni2025massiveagents,
+  title     = {MASSIVE-Agents: A Benchmark for Multilingual Function-Calling in 52 Languages},
+  author    = {Kulkarni, Mayank and Mazzia, V. and Gaspers, J. and Hench, C. and FitzGerald, J.},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2025},
+  year      = {2025},
+  tags      = {evaluation, tool use, multilingual},
+  abstract  = {Tool-use generalization is far more fragile than English-centric benchmarks suggest. MASSIVE-Agents exposes this by evaluating function-calling across 52 languages, revealing systematic performance degradation when English scaffolding is removed. The benchmark covers diverse API structures and argument types, forcing models to genuinely read context rather than pattern-match on familiar prompt formats.}
+}
+
+@techreport{amazon2025nova2,
+  title     = {Amazon Nova 2: Multimodal Reasoning and Generation Models},
+  author    = {{Amazon AGI}},
+  institution = {Amazon},
+  year      = {2025},
+  note      = {Core Contributor, Pre-Training},
+  tags      = {pre-training, reasoning, multimodal},
+  abstract  = {Technical report for the Amazon Nova 2 model family (Premier, Pro, Lite, Micro), covering multimodal reasoning and generation capabilities. The pre-training work included reasoning mid-training recipes, data quality methodology, training stability across dense and MoE architectures, and multimodal data balancing across text, speech, image, audio, and video modalities.}
+}
+
+@techreport{amazon2024nova1,
+  title     = {The Amazon Nova Family of Models: Technical Report and Model Card},
+  author    = {{Amazon AGI}},
+  institution = {Amazon},
+  year      = {2024},
+  note      = {Core Contributor, Pre-Training},
+  tags      = {pre-training, language models},
+  abstract  = {Technical report for the Amazon Nova 1.0 model family, covering pre-training methodology, training stability, and hardware bring-up on AWS Trainium. The pre-training work included data quality methodology, curriculum design, training stability research, and GPU-parity bring-up on custom silicon.}
+}
+
+@inproceedings{zhou2025mergeme,
+  title     = {MergeMe: Model Merging Techniques for Homogeneous and Heterogeneous MoEs},
+  author    = {Zhou, Y. and others and Kulkarni, Mayank and others},
+  booktitle = {Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the ACL},
+  year      = {2025},
+  tags      = {MoE, model merging, pre-training},
+  abstract  = {Systematic study of model merging techniques for both homogeneous and heterogeneous Mixture-of-Experts architectures, exploring how merged models retain and combine capabilities from constituent models.}
+}
+
+@inproceedings{shivagunde2024approximations,
+  title     = {Approximations May Be All You Need: Pre-Training LLMs with Low-Rank Decomposition and Optimizers},
+  author    = {Shivagunde, N. and Kulkarni, Mayank and others},
+  booktitle = {ENLSP-IV Workshop at NeurIPS 2024},
+  year      = {2024},
+  tags      = {pre-training, efficiency, optimization},
+  abstract  = {Explores whether low-rank decomposition of weight matrices and optimizer states during pre-training can match full-rank training quality while significantly reducing memory and compute requirements.}
+}
+
+@inproceedings{sinha2024maml,
+  title     = {MAML-EN-LLM: Model Agnostic Meta-Training of LLMs for Improved In-Context Learning},
+  author    = {Sinha, S. and Yue, Y. and Kulkarni, Mayank and others},
+  booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  year      = {2024},
+  tags      = {in-context learning, meta-learning, language models},
+  abstract  = {Applies model-agnostic meta-learning to pre-training to improve in-context learning generalization, demonstrating that meta-training objectives can be incorporated into the pre-training pipeline to yield better few-shot learners.}
+}
+
+@inproceedings{mishra2024clustering,
+  title     = {Clustering-Based Sampling for Few-Shot Cross-Domain Keyphrase Extraction},
+  author    = {Mishra, P. and Pattanaik, L. and Sundar, A. and Yadav, N. and Kulkarni, Mayank},
+  booktitle = {Findings of the Association for Computational Linguistics: EACL 2024},
+  year      = {2024},
+  tags      = {keyphrase extraction, few-shot learning, NLP},
+  abstract  = {Proposes clustering-based sampling strategies for selecting few-shot examples in cross-domain keyphrase extraction, improving generalization to unseen domains.}
+}
+
+@inproceedings{mehra2023entsumv2,
+  title     = {EntSUMv2: Dataset, Models and Evaluation for More Abstractive Entity-Centric Summarization},
+  author    = {Mehra, D. and Xie, L. and Hofmann-Coyle, E. and Kulkarni, Mayank and Preoţiuc-Pietro, D.},
+  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2023},
+  tags      = {summarization, NLP, datasets},
+  abstract  = {Extends the EntSum dataset with more abstractive summaries and introduces new models and evaluation protocols for entity-centric summarization that better capture abstractive rewriting.}
+}
+
+@inproceedings{kulkarni2023empirical,
+  title     = {An Empirical Analysis of Leveraging Knowledge for Low-Resource Task-Oriented Semantic Parsing},
+  author    = {Kulkarni, Mayank and others},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2023},
+  year      = {2023},
+  tags      = {semantic parsing, low-resource, NLP},
+  abstract  = {Empirical study of knowledge transfer strategies for task-oriented semantic parsing in low-resource settings, evaluating pre-trained representations, cross-lingual transfer, and data augmentation approaches.}
+}
+
+@inproceedings{winata2023overcoming,
+  title     = {Overcoming Catastrophic Forgetting in Massively Multilingual Continual Learning},
+  author    = {Winata, G.I. and Xie, L. and Kulkarni, Mayank and others},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2023},
+  year      = {2023},
+  tags      = {multilingual, continual learning, NLP},
+  abstract  = {Addresses catastrophic forgetting in continual multilingual learning, proposing methods to retain prior language capabilities while acquiring new ones.}
+}
+
+@inproceedings{kulkarni2023genres,
+  title     = {Genres Over Languages: Exploring Multi-Domain Multilingual Named Entity Recognition},
+  author    = {Kulkarni, Mayank* and Preoţiuc-Pietro, D.* and others},
+  booktitle = {Proceedings of the 17th Conference of the European Chapter of the ACL},
+  year      = {2023},
+  note      = {Equal Contribution},
+  tags      = {NER, multilingual, NLP},
+  abstract  = {Demonstrates that genre (news, social media, scientific) is a stronger predictor of NER performance than language, with implications for cross-lingual transfer and domain adaptation strategies.}
+}
+
+@inproceedings{kulkarni2023unified,
+  title     = {Towards a Unified Multi-Domain Multilingual Named Entity Recognition Model},
+  author    = {Kulkarni, Mayank* and Preoţiuc-Pietro, D. and Radhakrishnan, K. and Winata, G.I. and Wu, S. and Xie, L. and others},
+  booktitle = {Proceedings of the 17th Conference of the European Chapter of the ACL},
+  year      = {2023},
+  note      = {Equal Contribution},
+  tags      = {NER, multilingual, multi-domain, NLP},
+  abstract  = {Proposes a unified approach to named entity recognition that handles multiple domains and languages simultaneously, reducing the need for domain-specific models.}
+}
+
+@inproceedings{kulkarni2022keyphrases,
+  title     = {Learning Rich Representation of Keyphrases from Text},
+  author    = {Kulkarni, Mayank and Mahata, D. and Arora, R. and Bhowmik, R.},
+  booktitle = {Findings of the Association for Computational Linguistics: NAACL 2022},
+  year      = {2022},
+  tags      = {keyphrase extraction, representation learning, NLP},
+  abstract  = {Introduces novel pre-training objectives for learning rich keyphrase representations, achieving strong performance on keyphrase extraction and generation benchmarks by explicitly modeling keyphrase salience and boundaries.}
+}
+
+@inproceedings{maddela2022entsum,
+  title     = {EntSum: A Data Set for Entity-Centric Extractive Summarization},
+  author    = {Maddela, M.* and Kulkarni, Mayank* and others},
+  booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2022},
+  note      = {Co-first Author},
+  tags      = {summarization, datasets, NLP},
+  abstract  = {Introduces EntSum, a dataset for entity-centric extractive summarization where summaries are organized around specific entities of interest, enabling more targeted and controllable summarization.}
+}
+
+@inproceedings{hofmann2022extractive,
+  title     = {Extractive Entity-Centric Summarization as Sentence Selection using Bi-Encoders},
+  author    = {Hofmann-Coyle, E.* and Kulkarni, Mayank* and Xie, L.* and Maddela, M. and Preoţiuc-Pietro, D.},
+  booktitle = {Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the ACL},
+  year      = {2022},
+  note      = {Co-first Author},
+  tags      = {summarization, NLP},
+  abstract  = {Frames entity-centric extractive summarization as a sentence selection problem using bi-encoder models, achieving efficient and effective extraction of entity-relevant sentences.}
+}
+
+@inproceedings{winata2022crosslingual,
+  title     = {Cross-lingual Few-Shot Learning on Unseen Languages},
+  author    = {Winata, G.* and Wu, S.* and Kulkarni, Mayank* and Solorio, T. and Preoţiuc-Pietro, D.},
+  booktitle = {Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the ACL},
+  year      = {2022},
+  note      = {Co-first Author},
+  tags      = {multilingual, few-shot learning, NLP},
+  abstract  = {Studies cross-lingual few-shot learning on languages unseen during pre-training, revealing that multilingual models can generalize to new languages with minimal examples when properly prompted.}
+}
+
+@inproceedings{wang2020multidomain,
+  title     = {Multi-Domain Named Entity Recognition with Genre-Aware and Agnostic Inference},
+  author    = {Wang, J.* and Kulkarni, Mayank* and Preoţiuc-Pietro, D.},
+  booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2020},
+  note      = {Co-first Author},
+  tags      = {NER, multi-domain, NLP},
+  abstract  = {Proposes genre-aware and genre-agnostic inference strategies for multi-domain NER, showing that explicitly modeling genre information during inference significantly improves performance across diverse text types.}
+}
+
+@inproceedings{sahrawat2020keyphrase,
+  title     = {Keyphrase Extraction from Scholarly Articles as Sequence Labeling using Contextualized Embeddings},
+  author    = {Sahrawat, D. and Mahata, D. and Zhang, H. and Kulkarni, Mayank and others},
+  booktitle = {European Conference on Information Retrieval},
+  pages     = {328--335},
+  year      = {2020},
+  tags      = {keyphrase extraction, NLP},
+  abstract  = {Applies contextualized embeddings to keyphrase extraction from scholarly articles as a sequence labeling task, demonstrating strong performance on scientific domain benchmarks.}
+}
+
+@inproceedings{wiggins2019initiative,
+  title     = {Take the Initiative: Mixed Initiative Dialogue Policies for Pedagogical Agents in Game-Based Learning Environments},
+  author    = {Wiggins, J.B. and Kulkarni, Mayank and others},
+  booktitle = {International Conference on Artificial Intelligence in Education},
+  pages     = {314--318},
+  year      = {2019},
+  tags      = {dialogue systems, education AI},
+  abstract  = {Develops mixed-initiative dialogue policies for pedagogical agents in educational games, enabling agents to take conversational initiative at appropriate moments to improve student learning outcomes.}
+}
+
+@inproceedings{wiggins2018affect,
+  title     = {Affect-based Early Prediction of Player Mental Demand and Engagement for Educational Games},
+  author    = {Wiggins, J. and Kulkarni, Mayank and others},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence and Education Workshop},
+  year      = {2018},
+  tags      = {education AI, affective computing},
+  abstract  = {Uses affective signals to predict player mental demand and engagement early in educational game sessions, enabling adaptive interventions before student disengagement occurs.}
+}
+
+@inproceedings{wiggins2018affect2,
+  title     = {User Affect and No-Match Dialogue Scenarios: An Analysis of Facial Expression},
+  author    = {Wiggins, J.B. and Kulkarni, Mayank and others},
+  booktitle = {Proceedings of the 4th International Workshop on Multimodal Analyses Enabling Artificial Agents},
+  year      = {2018},
+  tags      = {dialogue systems, affective computing},
+  abstract  = {Analyzes facial expression responses to no-match dialogue scenarios, identifying affective patterns that predict user frustration and dropout in conversational AI systems.}
+}
+
+@inproceedings{kulkarni2018tutorial,
+  title     = {Toward Data-Driven Tutorial Question Answering with Deep Learning Conversational Models},
+  author    = {Kulkarni, Mayank and Boyer, K.},
+  booktitle = {Proceedings of the Thirteenth Workshop on Innovative Use of NLP for Building Educational Applications (BEA @ NAACL 2018)},
+  year      = {2018},
+  tags      = {dialogue systems, education AI, NLP},
+  abstract  = {Explores data-driven approaches to tutorial question answering using deep learning conversational models, comparing generative and retrieval-based approaches for intelligent tutoring systems.}
+}
+
+@inproceedings{kulkarni2015optimizing,
+  title     = {Optimizing Response Time and Synchronization in User Virtualization via Adaptive Memory Compression},
+  author    = {Kulkarni, Mayank and Ghatpande, R. and Karnani, N. and Abraham, J.},
+  booktitle = {2015 International Conference on Advances in Computing, Communications and Informatics (ICACCI)},
+  year      = {2015},
+  tags      = {systems, virtualization},
+  abstract  = {Proposes adaptive memory compression techniques for user virtualization environments to reduce response time and improve synchronization efficiency.}
+}
+
+@inproceedings{kumar2013graph,
+  title     = {Graph Based Techniques for User Personalization of News Streams},
+  author    = {Kumar, S. and Kulkarni, Mayank},
+  booktitle = {Proceedings of the 6th ACM India Computing Convention},
+  pages     = {1--7},
+  year      = {2013},
+  tags      = {personalization, graph algorithms},
+  abstract  = {Applies graph-based techniques to personalize news stream recommendations, modeling user interests and article relationships to improve relevance ranking.}
+}
+
+@patent{kulkarni2020patent,
+  title     = {Smart Email Task Reminders},
+  author    = {Kulkarni, Mayank and Chow, A.},
+  number    = {US 10,534,520},
+  year      = {2020},
+  tags      = {NLP, productivity},
+  abstract  = {A system and method for automatically identifying actionable tasks in email content and generating intelligent reminders based on temporal expressions and task salience.}
+}
